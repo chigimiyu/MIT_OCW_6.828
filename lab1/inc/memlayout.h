@@ -7,7 +7,7 @@
 #endif /* not __ASSEMBLER__ */
 
 /*
- * This file contains definitions for memory management in our OS,
+ * This file contains fdefinitions for memory management in our OS,
  * which are relevant to both the kernel and user-mode software.
  */
 

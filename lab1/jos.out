@@ -1,0 +1,23 @@
+*** Now run 'make gdb'.
+***
+6828 decimal is 15254 octal!
+Stack backtrace:
+  ebp f010ff18  eip f010006c  args 00000000 00000000 00000000 f0101108 00001aac
+	     kern/init.c:18: test_backtrace+44
+  ebp f010ff38  eip f0100059  args 00000000 f010ffac f010ff88 f01010b3 00000000
+	     kern/init.c:16: test_backtrace+25
+  ebp f010ff58  eip f0100059  args 00000001 00000000 ffffffff f01018b2 00000000
+	     kern/init.c:16: test_backtrace+25
+  ebp f010ff78  eip f0100059  args 00000002 00000000 f010ffb8 f010094b f0100917
+	     kern/init.c:16: test_backtrace+25
+  ebp f010ff98  eip f0100059  args 00000003 00000000 00000000 00000000 00000000
+	     kern/init.c:16: test_backtrace+25
+  ebp f010ffb8  eip f0100059  args 00000004 f010ffe4 00000000 00010094 00010094
+	     kern/init.c:16: test_backtrace+25
+  ebp f010ffd8  eip f01000b1  args 00000005 00001aac 00000644 00000000 00000000
+	     kern/init.c:39: i386_init+64
+  ebp f010fff8  eip f010003e  args 00111021 00000000 00000000 00000000 00000000
+	     kern/entry.S:83: <unknown>+0
+Welcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+qemu-system-i386: terminating on signal 15 from pid 6171

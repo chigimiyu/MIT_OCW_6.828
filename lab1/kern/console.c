@@ -42,7 +42,7 @@ delay(void)
 #define	  COM_MCR_OUT2	0x08	// Out2 complement
 #define COM_LSR		5	// In:	Line Status Register
 #define   COM_LSR_DATA	0x01	//   Data available
-#define   COM_LSR_TXRDY	0x20	//   Transmit buffer avail
+#define   COM_LSR_TXRDY	0x20	//   Transmit buffer available
 #define   COM_LSR_TSRE	0x40	//   Transmitter off
 
 static bool serial_exists;
