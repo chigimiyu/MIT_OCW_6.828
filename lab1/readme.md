@@ -541,6 +541,7 @@ relocated:
 以及一些指令集和处理器架构的网站,暂且不需要.
 1. [qemu模拟器官网](https://www.qemu.org/)
 1. [debug工具--GDB](http://www.gnu.org/software/gdb/)
+1. [The C Programming Languag 2nd Edition.pdf](../notebook/The C Programming Languag 2nd Edition.pdf)
 + 以下是本人参考的资料:
 1. [操作系统篇-浅谈实模式与保护模式](https://www.cnblogs.com/chenwb89/p/operating_system_002.html)
 1. [Lab 1 Exercise 4](https://www.cnblogs.com/fatsheep9146/p/5216735.html)
